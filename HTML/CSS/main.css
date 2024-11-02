@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+header {
+    background-color: #1E1E1E;
+    padding: 20px;
+    text-align:center ;
+    
+}
+
+header h1 {
+    display: flex;
+    color:#FFFFFF;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#home {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#home h2 {
+    color: #66FF66;
+    font-size: 28px;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+#home p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#home button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #66FF66;
+    color: #121212;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#home button: {
+    background-color: #4CAF50;
+}
+
+#services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 36px;
+    color: #66FF66;
+}
+
+.service {
+    background-color: #1E1E1E;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    border-radius: 8px;
+}
+
+.service h3 {
+    color: #66FF66;
+    font-size: 24px;
+}
+
+#work {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#work h2 {
+    font-size: 36px;
+    color: #66FF66;
+}
+
+.project {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.project img {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.project button {
+    margin-top: 10px;
+    padding: 5px 15px;
+    background-color: #66ff66;
+    color: black;
+    border: none;
+    transition: 0.3s;
+}
+
+.project{
+    background-color: #4CAF50;
+}
+
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #66FF66;
+    font-size: 36px;
+}
+
+#contact p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #66FF66;
+    color: #121212;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact button:hover {
+    background-color: #4CAF50;
+}
+
+
+footer {
+    background-color: #1E1E1E;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: #888;
+    font-size: 14px;
+}
